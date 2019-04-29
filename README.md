@@ -18,7 +18,15 @@ You should ensure that you add the `page_transition` as a dependency in your flu
 dependencies:
   page_transition: '^1.0.9'
 ```
-Than you can use it with below examples.
+
+And import flutter_page_transition:
+
+```dart
+import 'package:page_transition/page_transition.dart';
+```
+
+
+Then you can use it with below examples.
 
 ```dart 
 Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: DetailScreen()));
